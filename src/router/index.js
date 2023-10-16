@@ -23,6 +23,11 @@ const router = createRouter({
       component: () => import('../views/daftar.vue')
     },
     {
+      path: '/dashboard',
+      name: 'dashboard',
+      component: () => import('../views/dashboard.vue')
+    },
+    {
       path: '/masuk',
       name: 'masuk',
       component: () => import('../views/masuk.vue')
