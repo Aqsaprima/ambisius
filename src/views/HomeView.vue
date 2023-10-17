@@ -7,34 +7,34 @@
       <img src="../assets/logo.svg" class=" h-12" alt="logo" />
       <div class="flex flex-row gap-2 h-8 font-semibold">
         <RouterLink to="/masuk" class="px-6 py-1 rounded-md bg-white">MASUK</RouterLink>
-        <RouterLink to="/daftar" class="px-6 py-1 rounded-md text-white bg-orange-500">DAFTAR</RouterLink>
+        <RouterLink to="/daftar" class="px-6 py-1 rounded-md text-white bg-primary">DAFTAR</RouterLink>
       </div>
     </header>
     <body>
-      <section class=" bg-black-blue text-white flex flex-row p-10 gap-4 h-screen">
+      <section class=" bg-fifth text-white flex flex-row p-10 gap-4 h-screen">
         <div class="flex flex-col gap-8 place-content-center text-xl">
           <div>
             <p class="font-black text-5xl leading-normal">
-              <span class=" pl-2 py-1 pr-1 mb-4 bg-orange-500">ASAH</span>LOGIKAMU <br>
-              BERIKAN<span class=" px-2 bg-orange-500">SOLUSIMU</span>
+              <span class=" pl-2 py-1 pr-1 mb-4 bg-primary">ASAH</span>LOGIKAMU <br>
+              BERIKAN<span class=" px-2 bg-primary">SOLUSIMU</span>
             </p>
           </div>
           <p>membantu pengguna dalam menyelesaikan <br> beragam jenis soal logika bersama.</p>
-          <RouterLink to="/daftar" class="px-6 py-2 w-5/12 rounded-md text-white text-base font-semibold text-center bg-orange-500">Gabung Sekarang</RouterLink>
+          <RouterLink to="/daftar" class="px-6 py-2 w-5/12 rounded-md text-white text-base font-semibold text-center bg-primary">Gabung Sekarang</RouterLink>
         </div>
         <img src="../assets/ilustrasi.svg" alt="ilustrasi" class=" m-auto w-2/5">
       </section>
       <section>
         <div class="flex flex-row gap-12 py-20 p-8 place-content-center text-white">
-          <div class=" bg-orange-500 w-1/5 h-20 flex flex-col place-items-center rounded-lg place-content-center">
+          <div class=" bg-primary w-1/5 h-20 flex flex-col place-items-center rounded-lg place-content-center">
             <p class=" font-bold text-2xl">5 Juta</p>
             <p>Macam Soal</p>
           </div>
-          <div class=" bg-orange-500 w-1/5 h-20 flex flex-col place-items-center rounded-lg place-content-center">
+          <div class=" bg-primary w-1/5 h-20 flex flex-col place-items-center rounded-lg place-content-center">
             <p class=" font-bold text-2xl">10 Ribu</p>
             <p>Pengguna</p>
           </div>
-          <div class=" bg-orange-500 w-1/5 h-20 flex flex-col place-items-center rounded-lg place-content-center">
+          <div class=" bg-primary w-1/5 h-20 flex flex-col place-items-center rounded-lg place-content-center">
             <p class=" font-bold text-2xl">98,9%</p>
             <p>Orang Terbantu</p>
           </div>
